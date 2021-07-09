@@ -7,7 +7,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 /* common */
-
+.ms_padding_fixed_element {
+    padding-top: 100px;
+}
+.ms_h-100 {
+    height: 100%;
+}
+.ms_my-red {
+    background-color: red !important;
+    color: white !important;
+}
 /* /common */
 /* nav  */
 nav {
@@ -20,8 +29,21 @@ nav {
 .ms_nav_logo svg {
     height: 16px;
 }
+.ms_logo_dimension {
+    left: 35px !important;
+    top: 46%;
+    height: 40px;
+}
 /* /nav  */
 /* main */
+/* jumbotron */
+.ms_jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* /jumbotron */
 /* /main */
 /* footer */
 /* /footer */
