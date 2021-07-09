@@ -26,7 +26,7 @@ body {
     color: white !important;
 } 
 .ms_img-row {
-    width: 90%;
+    width: 100%;
 }
 .ms_rounder_img {
     padding: 5px;
@@ -69,6 +69,16 @@ nav {
 .ms_ps5-width {
     width: 100%;
 }
+.ms_fs_tm {
+    display: inline-block;
+    font-size: 8px;
+    color: gray;
+    vertical-align: text-top;
+}
+.ms_overlay_gray {
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 90000 !important;
+}
 /* /main */
 /* footer */
 /* /footer */
@@ -76,6 +86,12 @@ nav {
 /* hover  */
 .ms_img-hover:hover .ms_rounder_img {
     border: 2px solid blue;
+}
+.ms_img-hover:hover .ms_overlay_gray {
+    display: none;
+}
+.ms_border-bottom:hover {
+    border-bottom: 2px solid blue;
 }
 /* /hover  */
 /* /end of cascade  */
