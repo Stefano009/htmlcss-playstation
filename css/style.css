@@ -17,6 +17,13 @@ body {
     background-color: red !important;
     color: white !important;
 }
+.ms_img-row {
+    width: 90%;
+}
+.ms_rounder_img {
+    padding: 5px;
+    border-radius: 20px !important;
+}
 /* /common */
 /* nav  */
 nav {
@@ -42,10 +49,17 @@ nav {
     height: 100%;
     background-position: center;
     background-size: cover;
+    /* the position relative goes over my fixed element coming after it so i had to put a negative index */
+    z-index: -1;
 }
 /* /jumbotron */
 /* /main */
 /* footer */
 /* /footer */
 /* end of cascade  */
+/* hover  */
+.ms_img-hover:hover .ms_rounder_img {
+    border: 2px solid blue;
+}
+/* /hover  */
 /* /end of cascade  */
