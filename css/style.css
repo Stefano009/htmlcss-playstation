@@ -152,6 +152,12 @@ nav {
 
 /* /main */
 /* footer */
+.ms_footer_bg {
+    background-color: #00439C;
+}
+.ms_svg {
+    line-height: 100px;
+}
 /* /footer */
 /* end of cascade  */
 /* hover  */
