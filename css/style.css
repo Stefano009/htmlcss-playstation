@@ -5,6 +5,8 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100vw !important;
+    max-width: 100% !important;
 }
 /* common */
 .ms_padding_fixed_element {
@@ -26,11 +28,14 @@ body {
     width: 100%;
 }
 .ms_my-blue {
-    background-color: blue !important;
+    background-color: #2D64E6 !important;
     color: white !important;
-} 
+}
 .ms_img-row {
-    width: 100%;
+width: 100%;
+}
+.ms_img-row_second {
+width: 100%;
 }
 .ms_img-row_second {
     width: 90%;
@@ -40,7 +45,7 @@ body {
     border-radius: 20px !important;
 }
 .ms_negative_index {
-    z-index: -1;
+    z-index: 0;
 }
 .ms_w-100 {
     width: 100% !important;
@@ -50,6 +55,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
+    z-index: 9999999999999;
 }
 .ms_nav_logo {
     background-color: black;
@@ -89,6 +95,13 @@ nav {
     color: gray;
     vertical-align: text-top;
 }
+.ms_fs_r {
+    display: inline-block;
+    font-size: 12px;
+    color: black;
+    vertical-align: text-top;
+    padding-top: 10px;
+}
 .ms_overlay_gray {
     background-color: rgba(255, 255, 255, 0.3);
     z-index: 90000 !important;
@@ -109,19 +122,55 @@ nav {
     width: 250px;
 }
 /* /second jumbotron */
+.ms_logo_ps-plus {
+    height: 70px;
+}
+.ms_bg_ps-plus {
+    background-color: #BEBCBB !important;
+}
+.ms_btn_ps-plus {
+    background-color: #D9DADC;
+}
+.ms_monthly-offers {
+    height: 100%;
+    width: 100%;
+}
 /* /main */
 /* footer */
 /* /footer */
 /* end of cascade  */
 /* hover  */
-.ms_img-hover:hover .ms_rounder_img {
-    border: 2px solid blue;
-}
+
 .ms_img-hover:hover .ms_overlay_gray {
+    display: none;
+}
+.ms_border-bottom:hover .ms_overlay_gray {
     display: none;
 }
 .ms_border-bottom:hover {
     border-bottom: 2px solid blue;
 }
+.ms_img-hover:hover .ms_rounder_img {
+    border: 2px solid blue;
+}
 /* /hover  */
+/* debug */
+.none {
+    display: none;
+}
+/* /debug */
+/* mediaquery */
+@media (max-width: 576px) {
+    .none {
+        display: none !important;
+    }
+}
+@media (min-width: 577px) {
+    .none {
+        display: block !important;
+    }
+}
+    
+}
+/* /mediaquery */
 /* /end of cascade  */
