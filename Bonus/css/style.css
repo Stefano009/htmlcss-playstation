@@ -74,6 +74,20 @@ nav {
 .ms_h-45 {
     height: 45%;
 }
+/* bonus */
+.dropdown {
+    position: static !important;
+}
+.dropdown-menu {
+    width: 100% !important;
+    margin-top: 0 !important;
+}
+.ms-dot-blue {
+    font-size: 5px;
+    color: blue;
+    vertical-align: middle;
+}
+/* /bonus */
 /* /nav  */
 /* main */
 /* jumbotron */
@@ -194,4 +208,5 @@ nav {
     
 }
 /* /mediaquery */
+
 /* /end of cascade  */
