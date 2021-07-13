@@ -186,6 +186,7 @@ nav {
     border-bottom: 2px solid blue;
 }
 .ms_img-hover:hover .ms_rounder_img {
+    padding: 20px;
     border: 2px solid blue;
 }
 /* /hover  */
