@@ -91,6 +91,14 @@ nav {
     color: blue;
     vertical-align: middle;
 }
+.ms_height_jumbo {
+    height: 560px;
+
+}
+.ms_jumbo-name {
+    height: 80px;
+    left: 10%;
+}
 /* /bonus */
 /* /nav  */
 /* main */
