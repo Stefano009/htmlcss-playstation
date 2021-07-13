@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw !important;
+    max-width: 100% !important;
+}
+/* common */
+.ms_padding_fixed_element {
+    padding-top: 100px;
+}
+.ms_h-100 {
+    height: 100%;
+}
+.ms_h-50 {
+    height: 50%;
+}
+.ms_my-red {
+    background-color: red !important;
+    color: white !important;
+}
+.ms_my-dark_gray {
+    background-color: #1F1F1F !important;
+    color: white !important;
+    width: 100%;
+}
+.ms_my-blue {
+    background-color: #2D64E6 !important;
+    color: white !important;
+}
+.ms_img-row {
+width: 100%;
+}
+.ms_img-row_second {
+width: 100%;
+}
+.ms_img-row_second {
+    width: 90%;
+}
+.ms_rounder_img {
+    padding: 5px;
+    border-radius: 20px !important;
+}
+.ms_negative_index {
+    z-index: 0;
+}
+.ms_w-100 {
+    width: 100% !important;
+}
+/* /common */
+/* nav  */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9999999999999;
+}
+.ms_nav_logo {
+    background-color: black;
+    width: 100%;
+}
+.ms_nav_logo svg {
+    height: 16px;
+}
+.ms_logo_dimension {
+    height: 50px;
+    width: 300px;
+}
+.ms_h-55 {
+    height: 55%;
+}
+.ms_h-45 {
+    height: 45%;
+}
+/* /nav  */
+/* main */
+/* jumbotron */
+.ms_jumbotron{
+    background-image: url("../img/jumbo-bg.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* the position relative goes over my fixed element coming after it so i had to put a negative index */
+    z-index: -1;
+}
+/* /jumbotron */
+.ms_ps5-width {
+    width: 100%;
+}
+.ms_fs_tm {
+    display: inline-block;
+    font-size: 8px;
+    color: gray;
+    vertical-align: text-top;
+}
+.ms_fs_r {
+    display: inline-block;
+    font-size: 12px;
+    color: black;
+    vertical-align: text-top;
+    padding-top: 10px;
+}
+.ms_overlay_gray {
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 90000 !important;
+}
+/* second jumbotron */
+.ms_jumbotron_second{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+.ms_logo_dimension_second {
+    padding-top: 40px;
+    padding-left: 20px;
+    height: 200px;
+    width: 250px;
+}
+/* /second jumbotron */
+.ms_logo_ps-plus {
+    height: 70px;
+}
+.ms_bg_ps-plus {
+    background-color: #BEBCBB !important;
+}
+.ms_btn_ps-plus {
+    background-color: #D9DADC;
+}
+.ms_monthly-offers {
+    height: 100%;
+    width: 100%;
+}
+.ms_ps-store_img {
+    height: 100%;
+    width: 100%;
+}
+.ms_ps-now {
+    width: 60%;
+}
+.ms_ps-now-big,
+.ms_social_img  {
+    width: 100%;
+}
+.ms_bg_ps-now {
+    background-color: #161C3B;
+}
+
+/* /main */
+/* footer */
+.ms_footer_bg {
+    background-color: #00439C;
+}
+.ms_svg {
+    line-height: 100px;
+}
+/* /footer */
+/* end of cascade  */
+/* hover  */
+
+.ms_img-hover:hover .ms_overlay_gray {
+    display: none;
+}
+.ms_border-bottom:hover .ms_overlay_gray {
+    display: none;
+}
+.ms_border-bottom:hover {
+    border-bottom: 2px solid blue;
+}
+.ms_img-hover:hover .ms_rounder_img {
+    border: 2px solid blue;
+}
+/* /hover  */
+/* debug */
+.none {
+    display: none;
+}
+/* /debug */
+/* mediaquery */
+@media (max-width: 768px) {
+    .none {
+        display: none !important;
+    }
+}
+@media (min-width: 769px) {
+    .none {
+        display: block !important;
+    }
+}
+    
+}
+/* /mediaquery */
+/* /end of cascade  */
