@@ -56,7 +56,7 @@ width: 100%;
 }
 /* /common */
 /* nav  */
-nav {
+.ms_fixed_nav {
     position: fixed;
     width: 100%;
     z-index: 9999999999999;
@@ -98,6 +98,11 @@ nav {
 .ms_jumbo-name {
     height: 80px;
     left: 10%;
+}
+.ms_sticky {
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
 }
 /* /bonus */
 /* /nav  */
