@@ -44,6 +44,10 @@ width: 100%;
     padding: 5px;
     border-radius: 20px !important;
 }
+.ms_rounder_img-social {
+    padding: 5px;
+    border-radius: 20px !important;
+}
 .ms_negative_index {
     z-index: 0;
 }
@@ -188,6 +192,11 @@ nav {
 .ms_img-hover:hover .ms_rounder_img {
     padding: 20px;
     border: 2px solid blue;
+}
+.ms_img-hover:hover .ms_rounder_img-social {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border: 2px solid red;
 }
 /* /hover  */
 /* debug */
